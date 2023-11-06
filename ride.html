@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ride.css">
+</head>
+<body>
+    <div class="booking-form-box">
+        <div class="trip-option">
+            <input type="radio" class="btn" name="check"><span>Round Trip</span>
+            <input type="radio" class="btn" name="check"><span>One way</span>
+        </div>
+        <div class="booking-form">
+            <label>Ride From</label>
+            <input type="text" class="loc" placeholder="Enter where from start">
+            <label>Ride To</label>
+            <input type="text" class="loc" placeholder="Enter where to End">
+            <div class="time">
+                <label>Departing</label>
+                <input type="date" class="input-date">
+            </div>
+            <div class="time">
+                <label>Returning</label>
+                <input type="date" class="input-date">
+            </div>
+            <div class="time">
+                <label>Adults</label>
+                <input type="number" class="input-count" value="1">
+            </div>
+            <div class="time">
+                <label>Children</label>
+                <input type="number" class="input-count" value="0">
+            </div>
+            <div class="time">
+                <label>Travel by</label>
+                <select class="select-class">
+                    <option value="1">car</option>
+                    <option value="2">valvo</option>
+                    <option value="3">Delux</option>
+                </select>
+
+            </div>
+            <div class="submit">
+                <button type="button">Ride</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

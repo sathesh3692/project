@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(38, 16, 16, 0.042);
+    background: url(stepout.jpg) no-repeat;
+    background-size: cover;
+    
+}
+.container{
+    background: url(car.jpg) no-repeat left;
+    background-size: 55%;
+    background-color: rgb(166, 210, 215);
+    overflow: hidden;
+    padding: 100px 0px;
+    
+}
+
+.inner-container{
+    width: 50%;
+    float: right;
+    background-color: rgb(230, 187, 187,0.6);    
+    margin-right: 50px;
+}
+.inner-container h1{
+    font-size: 40px;
+    margin-bottom: 3%;
+}
+.text{
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 40px;
+    
+}
+.log{
+    padding-left: 10px;
+    
+}
+a{
+    padding-left: 50px;
+    text-decoration: none;
+}
+a:hover{
+    font-size: 15px;
+    color: magenta;
+    text-decoration: underline;
+    transition: .25s;
+}

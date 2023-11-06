@@ -1,0 +1,48 @@
+body{
+    background: url(car-interior.jpg) no-repeat;
+    background-size: cover;
+    
+}
+.booking-form-box{
+    max-width: 350px;
+    border: 1px solid black;
+    margin: 10% auto 0;
+    background: rgba(255,255,255,0.6);
+    font-size: 20px;
+}
+.trip-option{
+    margin: 0 20px;
+}
+.btn{
+    margin: 20px 10px 20px 0px;
+    box-shadow: none;
+}
+.booking-form{
+    display: flex;
+    flex-direction: column;
+}
+.loc{
+    width: 75%;
+    font-size: 18px;
+    margin: 10px 0px 10px 020px;
+    border-radius: 5px;
+    
+}
+.input-date{
+    padding-left: 15px;
+    margin: 10px 0px 10px 20px;
+}
+.input-count{
+    margin: 10px 0px 10px 20px;
+}
+option{
+    font-size: 20px;
+    box-sizing: 20px;
+}
+.submit{
+    
+    text-align: center;
+}
+button{
+    font-size: 18px;
+}

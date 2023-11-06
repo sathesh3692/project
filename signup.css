@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.sign-up{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(cars.jpg);    
+    
+}
+
+form{
+    width: 30rem;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 8px 30px 0 blueviolet;
+    border-radius: 30px;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    background: white;
+}
+form:hover{
+    background: rgba(255,255,255,0.6);
+}
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 5px violet;
+    letter-spacing: 3px;
+    margin-bottom: 5%;
+}
+button{
+    width: 50%;
+    margin: 3% auto;
+    font-size: 15px;
+    border-radius: 25px;
+    outline: none;
+    border-left: 1px solid green;
+    border-top: 2px solid magenta;
+    cursor: pointer;
+}
+button:hover{
+    border-right: 1px solid green;
+    border-bottom: 2px solid magenta;
+    color: blueviolet;
+}
+label{
+    font-size: 20px;
+    margin-left: 10%;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 5px violet;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+input{
+    margin-left: 8%;
+    width: 75%;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.checkdiv{
+    display: inline-flex;
+    margin: 10px 0;
+}
+.checkdiv input{
+    width: auto;
+}
